@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Supradeep Ganta</h1>
+      <p>Web Developer</p>
+      <!-- Contact Information with Clickable Links -->
+      <div class="contact-info">
+        <a href="mailto:supradeep.ganta@my.liu.edu">Email</a> |
+        <a href="tel:+1234567890">Phone</a> |
+        <a
+          href="https://www.linkedin.com/in/supradeep-ganta-7609a1312/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        |
+        <a href="https://github.com/Supradeep100814689" target="_blank"
+          >GitHub</a
+        >
+      </div>
+    </header>
+    <!-- Navigation Menu for Different Sections -->
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a <strong>dedicated</strong> and <em>passionate</em> web developer
+        with experience in <abbr title="HyperText Markup Language">HTML</abbr>,
+        <abbr title="Cascading Style Sheets">CSS,</abbr> and
+        <abbr title="JavaScript">JavaScript.</abbr>
+      </p>
+    </section>
+    <!-- Work Experience Section -->
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <!-- Expandable Details Section -->
+      <details>
+        <summary>Web Developer at TCS Corp (2020 - Present)</summary>
+        <p>
+          Developed and maintained web applications, ensuring high performance
+          and responsiveness.
+        </p>
+        <!-- Ordered List with Tooltips for Responsibilities -->
+        <ol>
+          <li
+            title="Created dynamic user interfaces using React and JavaScript"
+          >
+            Developed UI components
+          </li>
+          <li
+            title="Optimized site speed and ensured cross-browser compatibility"
+          >
+            Optimized website performance
+          </li>
+          <li title="Implemented security best practices to protect user data">
+            Enhanced web security
+          </li>
+        </ol>
+      </details>
+      <details>
+        <summary>Software Engineer at Dell Ltd (2017 - 2020)</summary>
+        <p>
+          Worked on various software development projects, specializing in
+          full-stack development.
+        </p>
+        <ol>
+          <li title="Developed RESTful APIs using Node.js and Express">
+            Backend API development
+          </li>
+          <li title="Managed databases using MySQL and MongoDB">
+            Database management
+          </li>
+          <li title="Collaborated with designers to improve user experience">
+            Front-end collaboration
+          </li>
+        </ol>
+      </details>
+    </section>
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Institution</th>
+          <th>Degree</th>
+          <th>Graduation Date</th>
+          <th>GPA</th>
+          <th>Achievements</th>
+        </tr>
+        <tr>
+          <!-- Image for Institution Logo -->
+          <td>
+            <img
+              src="C:\Users\Bhavya Sri\Documents\liu.jpg"
+              alt="LIU"
+              class="institution-logo"
+            />
+            Long Island University
+          </td>
+          <td>MSc Computer Science</td>
+          <td>2025</td>
+          <td>3.9/4.0</td>
+          <td>Dean's List, Hackathon Winner</td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="C:\Users\Bhavya Sri\Documents\liu.jpg"
+              alt="xyz"
+              class="institution-logo"
+            />
+            Online Course
+          </td>
+          <td>Certified Web Developer</td>
+          <td>2021</td>
+          <td>N/A</td>
+          <td>Completed with Distinction</td>
+        </tr>
+      </table>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <fieldset>
+        <legend>Technical Skills</legend>
+        HTML: <progress value="90" max="100"></progress><br />
+        JavaScript: <progress value="75" max="100"></progress><br />
+        CSS: <progress value="80" max="100"></progress><br />
+        Java:
+        <progress value="70" max="100"></progress>
+      </fieldset>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Recipe Exchange Platform</h3>
+        <p>
+          A web-based platform where users can share, discover, and review
+          recipes.
+        </p>
+        <strong>Technologies Used:</strong>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+        </ul>
+        <!-- Link to Live Project -->
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+          >View Project</a
+        >
+        <figure>
+          <img
+            src="C:\Users\Bhavya Sri\Documents\recipe3.jpg"
+            alt="Recipe Project Screenshot"
+          />
+          <figcaption>Recipe Exchange Homepage</figcaption>
+        </figure>
+      </div>
+
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>An interactive personal portfolio website.</p>
+        <strong>Technologies Used:</strong>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <!-- Link to Live Project -->
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+          >View Project</a
+        >
+        <figure>
+          <img
+            src="C:\Users\Bhavya Sri\Documents\portfolio.jpg"
+            alt="Portfolio Website Screenshot"
+          />
+          <figcaption>My Portfolio Website</figcaption>
+        </figure>
+      </div>
+
+      <div class="project">
+        <h3>Weather App</h3>
+        <p>A weather application that fetches real-time data.</p>
+        <strong>Technologies Used:</strong>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>API Integration</li>
+        </ul>
+        <!-- Link to Live Project -->
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+          >View Project</a
+        >
+        <figure>
+          <img
+            src="C:\Users\Bhavya Sri\Documents\weather.jpg"
+            alt="weather app Screenshot"
+          />
+          <figcaption>Weather App Demonstration</figcaption>
+        </figure>
+      </div>
+    </section>
+    <!-- Certifications & Achievements -->
+    <section id="certifications">
+      <h2>Certifications & Achievements</h2>
+      <!-- Definition List for Certifications -->
+      <dl>
+        <dt class="highlight">Certified Full-Stack Developer</dt>
+        <dd>Completed an intensive web development bootcamp.</dd>
+        <dt class="highlight">Google Cloud Certified</dt>
+        <dd>Specialization in cloud computing and security.</dd>
+      </dl>
+    </section>
+
+    <!-- Interests & Hobbies -->
+    <section id="hobbies">
+      <h2>Interests & Hobbies</h2>
+      <div class="hobby-gallery">
+        <!-- Image Gallery with Hover Effect -->
+        <figure class="hobby">
+          <img src="C:\Users\Bhavya Sri\Documents\tree.jpg" alt="Photography" />
+          <figcaption>Photography</figcaption>
+        </figure>
+        <figure class="hobby">
+          <img src="C:\Users\Bhavya Sri\Documents\drawing.jpg" alt="Gaming" />
+          <figcaption>Drawing</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <p>Let’s Connect! Feel free to reach out via email or social media.</p>
+      <!-- Back to Top Button -->
+      <a href="#" id="back-to-top">Back to Top</a>
+      <p>&copy; 2025 Supradeep Ganta | All Rights Reserved</p>
+    </footer>
+
+    <script src="scripts.js" defer></script>
+  </body>
+</html>
+
+<!----
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </footer>
+  </body>
+</html>  -->
